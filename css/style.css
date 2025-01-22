@@ -971,8 +971,8 @@ line-height: 0.5;
 .box-body:before {
     position: absolute;
     background-color: #F5EB4E;
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
     border-radius: 3px;
     display: flex;
 }
@@ -1004,13 +1004,13 @@ line-height: 0.5;
 }
 
 .deadline_one{
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   letter-spacing: 0;
   padding-top: 2.5vh;
 }
 
 .deadline_two{
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -1604,6 +1604,45 @@ letter-spacing: -1px;
   display: flex;
 }
 }
+
+
+
+
+
+/* スマホ用のレスポンシブデザイン */
+/* --- メディアクエリ (375px以下) --- */
+@media (max-width: 375px) {
+
+
+#xylitol .xylitol_p_one{
+  font-size: 1.1rem;
+  margin-bottom: 1vh;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 0;
+}
+
+
+
+
+.xylitolbox_three_text01{
+  font-size: 0.7rem;
+  letter-spacing: -1px;
+  }
+
+
+
+
+  #order{
+  padding-top: 10vh;
+  padding-bottom: 0vh;
+}
+
+}
+
+
+
+
 
 
 /* スマホ用のレスポンシブデザイン */
