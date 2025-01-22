@@ -1228,7 +1228,6 @@ text-decoration-thickness: 3px;
   padding-bottom: 20px;
   background-color: #ffffff; /* 背景色 */
   width: 70vw; /* 横幅を指定 */
-  height: 22vh;
   color: #333; /* 文字色 */
 }
 
@@ -1261,6 +1260,7 @@ text-decoration-thickness: 3px;
 .xylitolbox_two{
   padding-bottom: 1vh;
   }
+
 
 
 
@@ -1621,15 +1621,6 @@ letter-spacing: -1px;
   letter-spacing: -2px;
   line-height: 0;
 }
-
-
-
-
-.xylitolbox_three_text01{
-  font-size: 0.7rem;
-  letter-spacing: -1px;
-  }
-
 
 
 
