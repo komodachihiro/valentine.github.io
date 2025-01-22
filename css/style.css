@@ -300,7 +300,7 @@ text-decoration-thickness: 3px;
   font-size: 3rem;
   color: #703D24;
   padding-top: 2vh;
-  padding-bottom: 4vh;
+  padding-bottom: 3vh;
 }
 
 
@@ -1733,11 +1733,18 @@ margin-left: -5vw;
 }
 
 
+#xylitol p{
+ padding-bottom: 10vh;
+}
+
 .button03 {
   display: none;
 }
 
-
+#order{
+  padding-top: 20vh;
+  padding-bottom: 0vh;
+}
 
 /*-------------------------------------------
 価格①②③
