@@ -1,0 +1,1738 @@
+
+
+@charset "UTF-8";
+
+
+/*共有部分*/
+
+html{
+	font-size: 100%;
+}
+
+body{
+  background-image: url(../img/back.png);
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 	font-family: "Noto Sans JP", sans-serif;
+ 	overflow-x: hidden;
+ 	margin: 0;
+ 	text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; /* Safari */
+  font-family: "Hina Mincho", serif;
+}
+
+
+a{
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover {/*マウスが上に乗っている状態*/
+color:yellow;
+text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+	vertical-align: bottom;
+}
+
+li{
+	list-style: none;
+}
+
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+
+/*注文するボタン*/
+.button01 {
+  /* スタイル用 */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 340px;
+  height: 50px;
+  margin: 50px 1000px;
+  background-color: #EF1B3A;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-family: "Hina Mincho", serif;
+  border-radius: 50px;
+  /* スタイル用 */
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.button01:before,
+.button01:after {
+  position: absolute;
+  top: 67%;
+  right: 60px;
+  height: 1px;
+  background: #FFF;
+  content: '';
+}
+
+.button01:before {
+  width: 50px;
+  transform: translateY(-50%);
+}
+
+.button01:after {
+  width: 8px;
+  transform: translateY(-50%) rotate(45deg);
+  transform-origin: right center;
+}
+
+
+
+
+
+#top .title{
+padding-top: 12vh;
+color: #703D24;
+letter-spacing:0.5px;}
+
+#top .title .title_one{
+  font-size: 1.5rem;
+  line-height: 1;
+  padding-left: 10vw;
+}
+
+
+#top .title .title_two{
+  font-size: 3rem;
+  line-height: 1;
+  padding-left: 10vw;
+}
+
+#top .title .title_three{
+  font-size: 8.5rem;
+  line-height:0.9;
+  padding-left: 10vw;
+}
+
+#top .title .title_four{
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+
+
+/*-------------------------------------------
+top_box
+-------------------------------------------*/
+
+.top_box{
+display: flex;
+}
+
+/*-------------------------------------------
+注文締切日
+-------------------------------------------*/
+
+.deadline{
+  margin-left: 75vw;
+  padding-bottom: 24vh;
+  margin-top: -40vh;
+}
+
+
+.box,
+.box:before,
+.box:after,
+.box-body,
+.box-body:before {
+    position: absolute;
+    background-color: #F5EB4E;
+    width: 186px;
+    height: 186px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.box:before {
+    transform: rotate(22deg);
+    content: '';
+}
+
+.box:after {
+    transform: rotate(-22deg);
+    content: '';
+}
+
+.box-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.box-body:before {
+    transform: rotate(45deg);
+    content: '';
+    z-index: -1;
+}
+
+.deadline_one{
+  font-size: 1.3rem;
+  letter-spacing: 0;
+}
+
+.deadline_two{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+.deadline_number{
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 0.5;
+}
+
+.deadline_three{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+.topimg img{
+width: 85%;
+height: auto;
+margin-top: -4vh;
+height: auto;
+padding-left: 2vw;
+overflow: hidden; /* コンテンツが溢れてもサイズを固定 */
+}
+
+
+/*-------------------------------------------
+explanation
+-------------------------------------------*/
+
+
+#explanation .button01 {
+    display: none; /* デスクトップでは非表示 */
+}
+
+.explanation_text{
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  line-height: 1.3;
+  letter-spacing: 2.5px;
+  padding-bottom: 6vh;
+  padding-top: 15vh;
+  font-weight: 100;
+}
+
+
+.explanation_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+
+.explanationblock_one{
+text-align: center;
+
+}
+
+.explanationblock_one P{
+  color: #703D24;
+  font-size: 1.5rem;
+  margin-top: -10vh;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-align: centerx;
+}
+
+.explanationblock_two{
+text-align: center;
+}
+.explanationblock_two P{
+  color: #703D24;
+  font-size: 1.5rem;
+  margin-top: -10vh;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-align: centerx;
+  margin-left: 5vw;
+}
+
+.explanationblock_two img{
+  margin-left: 5vw;
+}
+.explanationblock_three{
+text-align: center;
+}
+.explanationblock_three P{
+  color: #703D24;
+  font-size: 1.5rem;
+  margin-top: -10vh;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-align: centerx;
+  margin-left: 5vw;
+}
+
+.explanationblock_three img{
+  margin-left: 5vw;
+}
+/*-------------------------------------------
+キシリトール
+-------------------------------------------*/
+#xylitol .xylitol_title{
+text-align: center;
+padding-top: 20vh;
+color: #703D24;
+text-decoration-thickness: 3px;
+}
+
+#xylitol .xylitol_title h2{
+  font-size: 3rem;
+  color: #703D24;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+}
+
+
+.xylitolbox_point
+{
+  width: 85px; /* 幅を指定 */
+  height: 85px; /* 高さを幅と同じに */
+  border-radius: 50%; /* 完全な円形にする */
+  display: inline-flex; /* 中央揃えのためにflexを使用 */
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center; /* 垂直方向の中央揃え */
+  background-color: #703D24;
+  border-radius: 50%;
+margin-left: -1vw;
+margin-bottom: -10vh}
+
+.xylitolbox_point span{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1vh;
+}
+
+
+.xylitolbox_text{
+  text-align: center;
+  border: 2px solid #703D24; /* 枠線の色と太さ */
+  border-radius: 7px; /* 角を丸くする */
+  padding: 65px; /* 内側の余白 */
+  background-color: #ffffff; /* 背景色 */
+  width: 75vw; /* 横幅を指定 */
+  font-size: 16px; /* 文字サイズ */
+  color: #333; /* 文字色 */
+}
+
+.xylitolbox_text dt{
+  font-size: 2.5rem;
+  color: #703D24;
+}
+
+.xylitolbox_text dd{
+  font-size: 1.4rem;
+  padding-top: 2vh;
+    color: #703D24;
+}
+
+
+.xylitolbox_one{
+  padding-bottom: 7vh;
+  padding-left: 13.5vw;
+
+}
+
+
+
+.xylitolbox_two{
+  padding-bottom: 7vh;
+  padding-left: 13.5vw;
+  }
+
+
+
+.xylitolbox_three{
+  padding-bottom: 7vh;
+  padding-left: 13.5vw;
+}
+
+
+
+.xylitolbox_four{
+  padding-bottom: 7vh;
+  padding-left: 13.5vw;
+}
+
+#xylitol p{
+  padding-top: 5vh;
+  text-align: center;
+  color:  #703D24;
+}
+
+#xylitol .xylitol_p_one{
+  font-size: 2.4rem;
+  margin-bottom: 1vh;
+
+}
+
+
+
+
+#xylitol .xylitol_p_two{
+  text-align: center;
+   font-size: 1.4rem;
+   margin-top: 2vh;
+}
+
+
+#xylitol .xylitol_p_one br{
+  display: none;
+}
+
+#xylitol .xylitol_p_two br
+{
+  display: none;
+}
+
+.orderbotan{
+  padding-top: 10vh;
+}
+
+
+
+
+/*注文するボタン*/
+.button03 {
+  /* スタイル用 */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 340px;
+  height: 50px;
+  margin: 50px 550px;
+  background-color: #EF1B3A;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-family: "Hina Mincho", serif;
+  border-radius: 50px;
+  /* スタイル用 */
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.button03:before,
+.button03:after {
+  position: absolute;
+  top: 67%;
+  right: 60px;
+  height: 1px;
+  background: #FFF;
+  content: '';
+}
+
+.button03:before {
+  width: 50px;
+  transform: translateY(-50%);
+}
+
+.button03:after {
+  width: 8px;
+  transform: translateY(-50%) rotate(45deg);
+  transform-origin: right center;
+}
+
+
+/*-------------------------------------------
+注文フォーム
+-------------------------------------------*/
+
+#order{
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+}
+
+.order_one{
+  background-color: #EBFFEB;
+  border: solid;
+  border-color: #3EA47C;
+  border-radius: 10px;
+  width: 70vw;
+  height: 100vh;
+margin: 0 auto;
+margin-top: }
+
+.order_one_text h3{
+background-color:  #3EA47C;
+border-top-left-radius: 8px;/*上角丸*/
+border-top-right-radius: 8px;/*上角丸*/
+font-family:"Noto Sans JP", serif;
+font-weight: 400;
+width: 70vw;
+height: 10vh;
+margin: 0 auto;
+color: #fff;
+font-size: 1.5rem;
+text-align: center;
+padding-top: 2vh;
+letter-spacing: -1px;
+}
+
+
+
+
+
+/*注文締切(黄色)*/
+.deadline01{
+  margin-left: 60vw;
+  padding-bottom: 0vh;
+  margin-top: -20vh;
+}
+
+
+.box,
+.box:before,
+.box:after,
+.box-body,
+.box-body:before {
+    position: absolute;
+    background-color: #F5EB4E;
+    width: 186px;
+    height: 186px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.box:before {
+    transform: rotate(22deg);
+    content: '';
+}
+
+.box:after {
+    transform: rotate(-22deg);
+    content: '';
+}
+
+.box-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.box-body:before {
+    transform: rotate(45deg);
+    content: '';
+    z-index: -1;
+}
+
+.deadline_one{
+  font-size: 1.3rem;
+  letter-spacing: 0;
+}
+
+.deadline_two{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+.deadline_number{
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 0.5;
+}
+
+.deadline_three{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+/*-------------------------------------------
+order_three_text
+-------------------------------------------*/
+
+.order_three{
+  font-family:"Noto Sans JP", serif;
+  padding-left: 2vw;
+  padding-top: 3vh;
+}
+
+.order_three_text{
+  padding-top: 20vh;
+}
+
+
+.order_three_box_name{
+  display: flex;
+}
+
+.name01{
+  font-size: 3.3rem;
+  font-family: "Hina Mincho", serif;
+  font-weight: 400;
+}
+
+
+.name02{
+  font-size: 1rem;
+  margin-top: 6.2vh;
+  font-weight: 500;
+}
+
+
+
+/*-------------------------------------------
+価格①②③
+-------------------------------------------*/
+
+.order_money_box01{
+  display: flex;
+  padding-top: 3vh;
+}
+
+
+.order_three_box_money{
+  background-color: #474747;
+  width: 30vw;
+  height: 7vh;}
+
+
+.order_three_box_money p{
+  color: #fff;
+  font-size: 1.3rem;
+  padding-left: 1.4vw;
+  padding-top: 1.3vh;
+}
+
+.pieces{
+ font-size: 1rem;
+_}
+
+.money{
+  padding-left: 10vw;
+  font-size: 1.5rem;
+}
+
+.money01{
+  padding-left: 14.3vw;
+  font-size: 1.5rem;
+}
+
+
+
+.order_money_box02{
+  display: flex;
+  padding-top: 2vh;
+}
+
+
+.order_money_box03{
+  display: flex;
+  padding-top: 2vh;
+}
+
+/*-------------------------------------------
+消費税
+-------------------------------------------*/
+.annotation{
+font-size: 1rem;
+padding-left: 19vw;
+}
+
+/*-------------------------------------------
+砂糖不使用
+-------------------------------------------*/
+.sugar{
+font-size: 1.2rem;
+padding-top: 2vh;
+padding-bottom: 2vh;
+}
+
+/*-------------------------------------------
+その他
+-------------------------------------------*/
+
+.others_box{
+  font-size: 0.8rem;
+  padding-bottom: 1vh;
+}
+
+.others{
+  font-size: 0.8rem;
+}
+
+
+/*-------------------------------------------
+商品画像
+-------------------------------------------*/
+.order_three_img{
+  margin-top: -80vh;
+  padding-left: 40vw;
+}
+
+.order_three_img img{
+  width: 120%;
+}
+
+/* デスクトップの時は非表示 */
+.order_three_img-768 {
+    display: none;
+}
+/*-------------------------------------------
+注文フォーム　入力
+-------------------------------------------*/
+
+.order_two{
+  font-family: "Noto Sans JP", serif;
+  padding-top: 6vh;
+  display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+}
+
+/* フォームのスタイル */
+/* フォーム全体のスタイル */
+form {
+    background-color: #e6f4e7; /* フォームの背景を淡い緑に */
+    padding: 30px; /* 内側の余白 */
+    border-radius: 15px; /* 角を丸くする */
+    box-shadow: 0px 4px 10px rgba(0, 128, 0, 0.2); /* 緑色を基調とした影 */
+    width: 160%; /* 幅を100%に設定 */
+    max-width: 800px; /* 最大幅を500pxに設定 */
+}
+
+/* ラベルのスタイル */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2d6a4f; /* 濃い緑の文字色 */
+}
+
+/* 必須のスタイル */
+.required{
+  color: #EF1B3A;
+  font-size: 0.7rem;
+}
+
+
+/* テキスト入力フィールドとテキストエリア */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #95d5b2; /* 緑の枠線 */
+    border-radius: 8px; /* 角を丸くする */
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #2d6a4f; /* 入力文字の緑色 */
+    background-color: #ffffff; /* 背景は白 */
+    transition: border-color 0.3s ease; /* フォーカス時のアニメーション */
+}
+
+/* フォーカス時のスタイル */
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #40916c; /* フォーカス時に濃い緑の枠線に */
+    outline: none; /* デフォルトのアウトラインを削除 */
+}
+
+
+/* 確認ボタンの基本スタイル */
+#open-confirmation {
+    background-color: #006400; /* 濃い緑色 */
+    color: white; /* ボタンの文字色を白に設定 */
+    border: none; /* 枠線を非表示 */
+    padding: 10px 20px; /* ボタンの内側余白 */
+    font-size: 16px; /* 文字サイズ */
+    border-radius: 5px; /* ボタンの角を丸くする */
+    cursor: pointer; /* カーソルをポインタに変更 */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* スムーズなトランジション */
+}
+
+/* ホバー時のスタイル */
+#open-confirmation:hover {
+    background-color: #004d00; /* ホバー時により濃い緑色に変更 */
+    transform: scale(1.05); /* 少し拡大 */
+}
+
+/* フォーカス時のスタイル（アクセシビリティ向上） */
+#open-confirmation:focus {
+    outline: 3px solid #008000; /* 緑色のアウトライン */
+}
+
+/* 送信ボタンのスタイル */
+input[type="submit"] {
+    background-color: #40916c; /* 濃い緑色の背景 */
+    color: #ffffff; /* 白い文字 */
+    padding: 12px;
+    border: none;
+    border-radius: 8px; /* ボタンの角を丸く */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; /* カーソルをポインタに変更 */
+    transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+}
+
+/* ボタンのホバー時のスタイル */
+input[type="submit"]:hover {
+    background-color: #2d6a4f; /* ホバー時にさらに濃い緑に */
+}
+
+/* 成功メッセージ・エラーメッセージのスタイル */
+.message-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 成功メッセージ */
+#success-message {
+    background-color: #d4edda; /* 成功時の背景色（淡い緑） */
+    color: #155724; /* 成功時の文字色（濃い緑） */
+    border: 1px solid #c3e6cb;
+}
+
+/* エラーメッセージ */
+#error-message {
+    background-color: #f8d7da; /* エラー時の背景色（赤） */
+    color: #721c24; /* エラー時の文字色（濃い赤） */
+    border: 1px solid #f5c6cb;
+}
+
+/* メディアクエリでスマホ対応 */
+@media (max-width: 768px) {
+    form {
+        width: 100%; /* スマホ画面では幅を90%に */
+        padding: 20px; /* パディングを少し減らす */
+
+    }
+
+
+  .order_two{
+  display: flex;
+  padding-right: 4vh;
+}
+}
+
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+
+
+#footer{
+  background-color: #000;
+  color: #fff;
+  height: 7vh;
+  display: flex;
+  font-family: "Noto Sans JP", serif;
+}
+
+
+#footer a{
+  color: #FFF;
+  padding-top: 1.5vh;
+  padding-left: 20vh;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#footer a:hover{
+  color: yellow;
+}
+
+.copyright{
+  padding-left: 100vh;
+  font-size: 0.8rem;
+  padding-top: 1.5vh;
+  font-weight: 200;
+}
+
+.footer_top{
+  display: flex;
+}
+
+
+/* スマホ用のレスポンシブデザイン */
+/* --- メディアクエリ (768px以下) --- */
+@media (max-width: 768px) {
+  body {
+    background-image: url(../img/back_768.png);
+     background-position: 0px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  }
+
+
+/*注文するボタン*/
+.button01 {
+  /* スタイル用 */
+  display: none;
+}
+
+.button01:before,
+.button01:after {
+  display: none;
+}
+
+.button01:before {
+  display: none;
+}
+
+.button01:after {
+  display: none;
+}
+
+#top .title{
+margin-top: -12vh;
+color: #703D24;
+letter-spacing:0px;
+line-height: 0.5;
+}
+
+#top .title .title_one{
+  font-size: 0.7rem;
+  padding-left: 7vw;
+
+}
+
+
+#top .title .title_two{
+  font-size: 1.3rem;
+  letter-spacing: -1px;
+  padding-left: 7vw;
+  font-weight: 700;
+}
+
+#top .title .title_three{
+  font-size: 2.8rem;
+  letter-spacing: -1px;
+  padding-left: 7vw;
+  font-weight: 900;
+   display: block; /* 行内に含まれる文字を別行に移動 */
+}
+
+#top .title .title_four{
+  font-size: 0.9rem;
+  line-height: 1;
+  letter-spacing: 0px;
+  padding-left: 7vw;
+}
+
+/*注文締切(黄色)*/
+
+
+.deadline_box{
+  padding-top: 2.5vh;
+  padding-bottom: 0;
+}
+
+.deadline{
+  margin-left: 250px;
+  margin-top: -15vh;
+}
+
+
+
+.box,
+.box:before,
+.box:after,
+.box-body,
+.box-body:before {
+    position: absolute;
+    background-color: #F5EB4E;
+    width: 75px;
+    height: 75px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.box:before {
+    transform: rotate(22deg);
+    content: '';
+}
+
+.box:after {
+    transform: rotate(-22deg);
+    content: '';
+}
+
+.box-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+
+
+.box-body:before {
+    transform: rotate(45deg);
+    content: '';
+    z-index: -1;
+}
+
+.deadline_one{
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  padding-top: 2.5vh;
+}
+
+.deadline_two{
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+
+.deadline_number{
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 0.5;
+}
+
+.deadline_three{
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.deadline_four{
+  font-size: 0.6rem;
+  line-height: 2;
+}
+
+.topimg img{
+width: 90%;
+height: auto;
+margin-top: -3vh;
+height: auto;
+padding-left: 2vw;
+overflow: hidden; /* コンテンツが溢れてもサイズを固定 */
+}
+
+
+
+
+/*-------------------------------------------
+explanation
+-------------------------------------------*/
+
+
+/* 説明セクションの上にボタンを表示 */
+#explanation .button01 {
+    display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 230px;
+  height: 40px;
+  margin: 0; /* 自動調整を解除 */
+  background-color: #EF1B3A;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-family: "Hina Mincho", serif;
+  border-radius: 50px;
+  top: 50%; /* 画面の縦方向中央 */
+  left: 50%; /* 画面の横方向中央 */
+  ; /* 画面の横方向中央 */
+  transform: translate(-50%, -50%);
+  /* スタイル用 */
+  font-size: 1.2rem;
+  position: relative;
+
+}
+
+.button01:before,
+.button01:after {
+  position: absolute;
+  top: 50%; /* ボタン内の縦中央 */
+  right: 20px; /* ボタン右端からの距離 */
+  height: 2px;
+  background: #FFF;
+  content: '';
+  display: block; /* 確実に表示 */
+}
+
+.button01:before {
+  width: 20px; /* 長い線の長さ */
+  transform: translateY(-50%);
+}
+
+.button01:after {
+  width: 8px; /* 短い線の長さ */
+  transform: translateY(-50%) rotate(45deg); /* 矢印の斜め線 */
+  transform-origin: right center;
+  height: 2px; /* 矢印の太さを統一 */
+}
+
+
+
+.explanation_text{
+  font-size: 0.7rem;
+  text-align: center;
+  color: #fff;
+  line-height: 1.3;
+  letter-spacing: 0px;
+  padding-bottom: 3vh;
+  padding-top: 7vh;
+  font-weight: 100;
+  margin-top: -8vh;
+}
+
+
+.explanation_box{
+  display: block;
+  margin-top: -4vh;
+  margin: 0 auto;
+}
+
+.explanationblock_one{
+
+}
+
+.explanationblock_one P{
+  color: #703D24;
+  margin-top: -5vh;
+  font-size: 0.7rem;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 600;
+}
+
+.explanationblock_one img{
+width: 47%;
+}
+
+.explanationblock_two{
+padding-top: 5vh;
+margin-left: -5vw;
+}
+
+.explanationblock_two P{
+  color: #703D24;
+  font-size: 0.7rem;
+  margin-top: -5vh;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: centerx;
+  margin-left: 5vw;
+  font-weight: 600;
+}
+
+.explanationblock_two img{
+  width: 45%;
+
+}
+
+
+.explanationblock_three{
+padding-top: 5vh;
+margin-left: -5vw;
+
+}
+
+.explanationblock_three P{
+  color: #703D24;
+  font-size: 0.7rem;
+  margin-top: -5vh;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: centerx;
+  margin-left: 5vw;
+  font-weight: 600;
+}
+
+.explanationblock_three img{
+  width: 45%;
+}
+
+
+/*-------------------------------------------
+キシリトール
+-------------------------------------------*/
+
+#xylitol .xylitol_title{
+text-align: center;
+padding-top: 10vh;
+color: #703D24;
+text-decoration-thickness: 3px;
+}
+
+#xylitol .xylitol_title h2{
+  font-size: 1.5rem;
+  color: #703D24;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+  margin-top: -10vh;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+
+
+.xylitolbox_point
+{
+  width: 40px; /* 幅を指定 */
+  height: 40px; /* 高さを幅と同じに */
+  border-radius: 50%; /* 完全な円形にする */
+  display: inline-flex; /* 中央揃えのためにflexを使用 */
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center; /* 垂直方向の中央揃え */
+  background-color: #703D24;
+  border-radius: 50%;
+}
+
+.xylitolbox_point span{
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 1vh;
+}
+
+
+.xylitolbox_text{
+  text-align: center;
+  border: 2px solid #703D24; /* 枠線の色と太さ */
+  border-radius: 7px; /* 角を丸くする */
+  padding: 19px; /* 内側の余白 */
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #ffffff; /* 背景色 */
+  width: 70vw; /* 横幅を指定 */
+  height: 22vh;
+  color: #333; /* 文字色 */
+}
+
+.xylitolbox_text dt{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #703D24;
+  letter-spacing: -1.1px;
+
+}
+
+.xylitolbox_text dd{
+  font-size: 0.9rem;
+  padding-top: 1.4vh;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -1px;
+    color: #703D24;
+}
+
+
+.xylitolbox_one{
+  padding-bottom: 1vh;    /* 既存の余白 */
+  height: 100%;           /* 必要に応じて高さを指定 */
+}
+
+
+
+
+.xylitolbox_two{
+  padding-bottom: 1vh;
+  }
+
+
+
+.xylitolbox_three{
+  padding-bottom: 1vh;
+}
+
+
+
+.xylitolbox_four{
+  padding-bottom: 1vh;
+}
+
+#xylitol p{
+  padding-top: 2vh;
+  text-align: center;
+  color:  #703D24;
+}
+
+#xylitol .xylitol_p_one{
+  font-size: 1.2rem;
+  margin-bottom: 1vh;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 0;
+}
+
+#xylitol .xylitol_p_two{
+   font-size: 0.9rem;
+   margin-top: 1vh;
+   letter-spacing: -1px;
+   text-align: center;
+   line-height: 0;
+}
+
+
+#xylitol .xylitol_p_one br{
+  display: inline;
+}
+
+#xylitol .xylitol_p_two br{
+  display: inline;
+}
+
+
+.orderbotan{
+  padding-top: 10vh;
+}
+
+/*-------------------------------------------
+注文するボタン
+-------------------------------------------*/
+
+/* ボタンを囲む親要素 */
+.container {
+  display: flex; /* フレックスボックスを有効化 */
+  justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */
+  margin-top: 3vh;
+}
+
+.button03 {
+  /* スタイル用 */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  margin: 0;
+  background-color: #EF1B3A;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-family: "Hina Mincho", serif;
+  border-radius: 50px;
+  /* スタイル用 */
+  font-size: 1.2rem;
+  position: relative;
+
+}
+
+.button03:before,
+.button03:after {
+  position: absolute;
+  top: 67%;
+  right: 30px;
+  height: 1px;
+  background: #FFF;
+  content: '';
+}
+
+.button03:before {
+  width: 30px;
+  transform: translateY(-50%);
+}
+
+.button03:after {
+  width: 8px;
+  transform: translateY(-50%) rotate(45deg);
+  transform-origin: right center;}
+
+
+
+/*-------------------------------------------
+注文フォーム
+-------------------------------------------*/
+
+
+#order{
+  padding-top: 20vh;
+  padding-bottom: 0vh;
+}
+
+.order_one{
+  background-color: #EBFFEB;
+  border: solid;
+  border-color: #3EA47C;
+  border-radius: 10px;
+  width: 80vw;
+  height: 127vh;
+  padding: 5px; /* 内側の余白 */}
+
+.order_one_text h3{
+background-color:  #3EA47C;
+border-top-left-radius: 7px;/*上角丸*/
+border-top-right-radius: 7px;/*上角丸*/
+font-family:"Noto Sans JP", serif;
+font-weight: 600;
+width: 79.5vw;
+height: 6vh;
+margin-top: -7px;
+margin-left: -7px;
+color: #fff;
+font-size: 0.8rem;
+text-align: center;
+padding-top: 1vh;
+letter-spacing: -0px;
+}
+
+
+
+
+/*注文締切(黄色)*/
+.deadline01{
+  margin-left: 10vw;
+  padding-bottom: 0vh;
+  margin-top: 0vh;
+  display: none;
+}
+
+
+
+/*-------------------------------------------
+order_three_text
+-------------------------------------------*/
+
+
+
+.order_three{
+  font-family:"Noto Sans JP", serif;
+  padding-left: 2vw;
+  padding-top: 0vh;
+}
+
+.order_three_text{
+  padding-top: 3vh;
+}
+
+
+.order_three_box_name{
+  display: flex;
+}
+
+.name01{
+  font-size: 1.6rem;
+  font-family: "Hina Mincho", serif;
+  font-weight: 400;
+  padding-left: 2vh;
+}
+
+
+.name02{
+  font-size: 0.5rem;
+  margin-top: 3.5vh;
+  font-weight: 500;
+}
+
+
+/*-------------------------------------------
+価格①②③
+-------------------------------------------*/
+
+.order_money_box01{
+  display: flex;
+  padding-top: -10vh;
+  justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */
+}
+
+
+.order_three_box_money{
+  background-color: #474747;
+  width: 69vw;
+  height: 5vh;}
+
+
+.order_three_box_money p{
+  color: #fff;
+  font-size: 0.8rem;
+  padding-left: 1vw;
+  padding-top: 0vh;
+}
+
+.pieces{
+ font-size: 0.7rem;
+_}
+
+.money{
+  padding-left: 13vw;
+  font-size: 1rem;
+}
+
+.money01{
+  padding-left: 26vw;
+  font-size: 1rem;
+}
+
+
+
+.order_money_box02{
+  display: flex;
+  padding-top: 2vh;
+  justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */
+}
+
+
+.order_money_box03{
+  display: flex;
+  padding-top: 2vh;
+justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */}
+
+/*-------------------------------------------
+消費税
+-------------------------------------------*/
+.annotation{
+font-size: 0.5rem;
+padding-left: 45vw;
+margin-top: -2vh;
+}
+
+/*-------------------------------------------
+砂糖不使用
+-------------------------------------------*/
+.sugar{
+font-size: 0.7rem;
+padding-top: 2vh;
+padding-bottom: 2vh;
+letter-spacing: -1px;
+}
+
+/*-------------------------------------------
+その他
+-------------------------------------------*/
+
+.others_box{
+  font-size: 0.6rem;
+  padding-bottom: 1vh;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+
+.others{
+  font-size: 0.6rem;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+}
+
+
+/*-------------------------------------------
+商品画像
+-------------------------------------------*/
+ .order_three_img-768 {
+        display: block;
+        margin-top: -45px;
+        margin-bottom: -40px;
+    }
+
+    .order_three_img {
+        display: none;
+    }
+
+
+
+/*-------------------------------------------
+注文フォーム
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+
+
+
+
+#footer{
+
+  background-color: #000;
+  color: #fff;
+  height: 9vh;
+  display: flex;
+  font-family: "Noto Sans JP", serif;
+  margin-top: 7vh;
+  padding-bottom: 0;
+}
+
+
+#footer a{
+  color: #FFF;
+  padding-top: 1vh;
+  padding-left: 4vh;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#footer a:hover{
+  color: yellow;
+}
+
+.copyright{
+  padding-left: 15vh;
+  font-size: 0.5rem;
+  padding-top: 2vh;
+  font-weight: 200;
+}
+
+.footer_top{
+  display: flex;
+}
+}
+
+
+/* スマホ用のレスポンシブデザイン */
+/* --- メディアクエリ (321px以下) --- */
+@media (max-width: 321px) {
+
+
+
+/*-------------------------------------------
+TOP
+-------------------------------------------*/
+
+
+  #top .title{
+margin-top: -18vh;
+color: #703D24;
+letter-spacing:0px;
+line-height: 0.5;
+}
+
+.button03{
+  display: none;}
+
+
+.deadline{
+  margin-left: 200px;
+
+}
+
+/*-------------------------------------------
+キシリトール
+-------------------------------------------*/
+
+
+#xylitol .xylitol_title{
+text-align: center;
+padding-top: 2vh;
+color: #703D24;
+text-decoration-thickness: 3px;
+}
+
+
+
+.xylitolbox_text dt{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #703D24;
+  letter-spacing: -1.1px;
+  line-height: 1.3;
+
+}
+
+.xylitolbox_text dd{
+  
+}
+
+.xylitolbox_one{
+  padding-bottom: 0.5vh;    /* 既存の余白 */
+}
+
+.xylitolbox_one .xylitolbox_text{
+  padding-top: 2vh;
+  width: 70vw; /* 横幅を指定 */
+  height: 20vh;
+}
+
+
+.xylitolbox_three .xylitolbox_text
+
+{
+  padding-top: 2vh;
+  width: 70vw; /* 横幅を指定 */
+  height: 31vh;
+}
+
+
+.xylitolbox_three_text01{
+  font-size: 0.9rem;
+  padding-top: -5vh;
+}
+
+
+.xylitolbox_two{
+  padding-bottom: 0.5vh;
+  }
+
+
+
+.xylitolbox_three{
+  padding-bottom: 0.5vh;
+}
+
+
+
+.xylitolbox_four{
+  padding-bottom: 0.5vh;
+}
+
+
+
+#order{
+  padding-top: 10vh;
+  padding-bottom: 0vh;
+}
+
+
+  .order_one{
+  background-color: #EBFFEB;
+  border: solid;
+  border-color: #3EA47C;
+  border-radius: 10px;
+  width: 80vw;
+  height: 140vh;
+  padding: 5px; /* 内側の余白 */}
+
+.order_one_text h3{
+background-color:  #3EA47C;
+border-top-left-radius: 7px;/*上角丸*/
+border-top-right-radius: 7px;/*上角丸*/
+font-family:"Noto Sans JP", serif;
+font-weight: 600;
+width: 79.5vw;
+height: 6vh;
+margin-top: -7px;
+margin-left: -7px;
+color: #fff;
+font-size: 0.8rem;
+text-align: center;
+padding-top: 1vh;
+letter-spacing: -0px;
+}
+}
