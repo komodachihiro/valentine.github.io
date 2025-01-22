@@ -861,7 +861,7 @@ input[type="submit"]:hover {
 
 #footer a{
   color: #FFF;
-  padding-top: 1.5vh;
+  padding-top: 1.７vh;
   padding-left: 20vh;
   font-size: 1rem;
   font-weight: 400;
@@ -914,28 +914,28 @@ input[type="submit"]:hover {
 }
 
 #top .title{
-margin-top: -13vh;
+margin-top: -10vh;
 color: #703D24;
 letter-spacing:0px;
 line-height: 0.5;
 }
 
 #top .title .title_one{
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   padding-left: 7vw;
 
 }
 
 
 #top .title .title_two{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   letter-spacing: -1px;
   padding-left: 7vw;
   font-weight: 700;
 }
 
 #top .title .title_three{
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   letter-spacing: -1px;
   padding-left: 7vw;
   font-weight: 900;
@@ -1006,7 +1006,7 @@ line-height: 0.5;
 .deadline_one{
   font-size: 1rem;
   letter-spacing: 0;
-  padding-top: 2.5vh;
+  padding-top: 2.2vh;
 }
 
 .deadline_two{
@@ -1061,7 +1061,6 @@ explanation
   color: #FFF;
   font-family: "Hina Mincho", serif;
   border-radius: 50px;
-  top: 50%; /* 画面の縦方向中央 */
   left: 50%; /* 画面の横方向中央 */
   ; /* 画面の横方向中央 */
   transform: translate(-50%, -50%);
@@ -1102,7 +1101,7 @@ explanation
   color: #fff;
   line-height: 1.3;
   letter-spacing: 0px;
-  padding-bottom: 5vh;
+  padding-bottom: 3vh;
   padding-top: 7vh;
   font-weight: 100;
   margin-top: -6vh;
@@ -1183,7 +1182,7 @@ margin-left: -5vw;
 
 #xylitol .xylitol_title{
 text-align: center;
-padding-top: 10vh;
+padding-top: 5vh;
 color: #703D24;
 text-decoration-thickness: 3px;
 }
@@ -1224,7 +1223,7 @@ text-decoration-thickness: 3px;
   border: 2px solid #703D24; /* 枠線の色と太さ */
   border-radius: 7px; /* 角を丸くする */
   padding: 19px; /* 内側の余白 */
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
   background-color: #ffffff; /* 背景色 */
   width: 70vw; /* 横幅を指定 */
@@ -1232,7 +1231,7 @@ text-decoration-thickness: 3px;
 }
 
 .xylitolbox_text dt{
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #703D24;
   letter-spacing: -1.1px;
@@ -1240,7 +1239,7 @@ text-decoration-thickness: 3px;
 }
 
 .xylitolbox_text dd{
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-top: 1.4vh;
   font-weight: 300;
   line-height: 1.2;
@@ -1271,7 +1270,7 @@ text-decoration-thickness: 3px;
 
 
 .xylitolbox_four{
-  padding-bottom: 4vh;
+  padding-bottom: 2vh;
 }
 
 #xylitol p{
@@ -1333,7 +1332,7 @@ text-decoration-thickness: 3px;
 
 .button03 {
   /* スタイル用 */
-  display: none;
+  display: flex;
   justify-content:center;
   align-items: center;
   width: 200px;
@@ -1378,7 +1377,7 @@ text-decoration-thickness: 3px;
 
 
 #order{
-  padding-top: 20vh;
+  padding-top: 15vh;
   padding-bottom: 0vh;
 }
 
@@ -1624,6 +1623,36 @@ letter-spacing: -1px;
 @media (max-width: 375px) {
 
 
+#top .title .title_one{
+  font-size: 0.7rem;
+  padding-left: 7vw;
+
+}
+
+
+#top .title .title_two{
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+  padding-left: 7vw;
+  font-weight: 700;
+}
+
+#top .title .title_three{
+  font-size: 3rem;
+  letter-spacing: -1px;
+  padding-left: 7vw;
+  font-weight: 900;
+   display: block; /* 行内に含まれる文字を別行に移動 */
+}
+
+#top .title .title_four{
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0px;
+  padding-left: 7vw;
+}
+
+
   .explanationblock_one P{
   color: #703D24;
   margin-top: -5vh;
@@ -1685,6 +1714,86 @@ margin-left: -5vw;
 #xylitol .xylitol_title h2{
   margin-top: -15vh;
 }
+
+.xylitolbox_text dt{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #703D24;
+  letter-spacing: -1.1px;
+
+}
+
+.xylitolbox_text dd{
+  font-size: 0.9rem;
+  padding-top: 1.4vh;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -1px;
+    color: #703D24;
+}
+
+
+.button03 {
+  display: none;
+}
+
+
+
+/*-------------------------------------------
+価格①②③
+-------------------------------------------*/
+
+.order_money_box01{
+  display: flex;
+  padding-top: 3vh;
+  justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */
+}
+
+
+.order_three_box_money{
+  background-color: #474747;
+  width: 69vw;
+  height: 5vh;}
+
+
+.order_three_box_money p{
+  color: #fff;
+  font-size: 0.8rem;
+  padding-left: 1vw;
+  padding-top: 0.4vh;
+}
+
+.pieces{
+ font-size: 0.7rem;
+ padding-right: 5vw;
+_}
+
+.money{
+  padding-left: 15vw;
+  font-size: 1rem;
+}
+
+.money01{
+  padding-left: 26vw;
+  font-size: 1rem;
+}
+
+
+
+.order_money_box02{
+  display: flex;
+  padding-top: 2vh;
+  justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */
+}
+
+
+.order_money_box03{
+  display: flex;
+  padding-top: 2vh;
+justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */}
 
 
   #order{
@@ -1851,12 +1960,12 @@ text-decoration-thickness: 3px;
 _}
 
 .money{
-  padding-left: 13vw;
+  padding-left: 7vw;
   font-size: 1rem;
 }
 
 .money01{
-  padding-left: 26vw;
+  padding-left: 20vw;
   font-size: 1rem;
 }
 
