@@ -914,7 +914,7 @@ input[type="submit"]:hover {
 }
 
 #top .title{
-margin-top: -12vh;
+margin-top: -13vh;
 color: #703D24;
 letter-spacing:0px;
 line-height: 0.5;
@@ -928,14 +928,14 @@ line-height: 0.5;
 
 
 #top .title .title_two{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   letter-spacing: -1px;
   padding-left: 7vw;
   font-weight: 700;
 }
 
 #top .title .title_three{
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   letter-spacing: -1px;
   padding-left: 7vw;
   font-weight: 900;
@@ -943,7 +943,7 @@ line-height: 0.5;
 }
 
 #top .title .title_four{
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1;
   letter-spacing: 0px;
   padding-left: 7vw;
@@ -971,8 +971,8 @@ line-height: 0.5;
 .box-body:before {
     position: absolute;
     background-color: #F5EB4E;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 3px;
     display: flex;
 }
@@ -1004,37 +1004,37 @@ line-height: 0.5;
 }
 
 .deadline_one{
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 0;
   padding-top: 2.5vh;
 }
 
 .deadline_two{
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 
 
 .deadline_number{
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
   line-height: 0.5;
 }
 
 .deadline_three{
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .deadline_four{
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   line-height: 2;
 }
 
 .topimg img{
-width: 90%;
+width: 95%;
 height: auto;
-margin-top: -3vh;
+margin-top: -4vh;
 height: auto;
 padding-left: 2vw;
 overflow: hidden; /* コンテンツが溢れてもサイズを固定 */
@@ -1097,15 +1097,15 @@ explanation
 
 
 .explanation_text{
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-align: center;
   color: #fff;
   line-height: 1.3;
   letter-spacing: 0px;
-  padding-bottom: 3vh;
+  padding-bottom: 5vh;
   padding-top: 7vh;
   font-weight: 100;
-  margin-top: -8vh;
+  margin-top: -6vh;
 }
 
 
@@ -1121,16 +1121,16 @@ explanation
 
 .explanationblock_one P{
   color: #703D24;
-  margin-top: -5vh;
-  font-size: 0.7rem;
-  letter-spacing: 0px;
+  margin-top: -6vh;
+  font-size: 1rem;
+  letter-spacing: -1px;
   line-height: 1;
   text-align: center;
   font-weight: 600;
 }
 
 .explanationblock_one img{
-width: 47%;
+width: 49%;
 }
 
 .explanationblock_two{
@@ -1140,9 +1140,9 @@ margin-left: -5vw;
 
 .explanationblock_two P{
   color: #703D24;
-  font-size: 0.7rem;
-  margin-top: -5vh;
-  letter-spacing: 0px;
+  font-size: 1rem;
+  margin-top: -6vh;
+  letter-spacing: -1px;
   line-height: 1;
   text-align: centerx;
   margin-left: 5vw;
@@ -1150,7 +1150,7 @@ margin-left: -5vw;
 }
 
 .explanationblock_two img{
-  width: 45%;
+  width: 47%;
 
 }
 
@@ -1163,9 +1163,9 @@ margin-left: -5vw;
 
 .explanationblock_three P{
   color: #703D24;
-  font-size: 0.7rem;
-  margin-top: -5vh;
-  letter-spacing: 0px;
+  font-size: 1rem;
+  margin-top: -6vh;
+  letter-spacing: -1px;
   line-height: 1;
   text-align: centerx;
   margin-left: 5vw;
@@ -1173,7 +1173,7 @@ margin-left: -5vw;
 }
 
 .explanationblock_three img{
-  width: 45%;
+  width: 47%;
 }
 
 
@@ -1271,7 +1271,7 @@ text-decoration-thickness: 3px;
 
 
 .xylitolbox_four{
-  padding-bottom: 1vh;
+  padding-bottom: 4vh;
 }
 
 #xylitol p{
@@ -1280,20 +1280,29 @@ text-decoration-thickness: 3px;
   color:  #703D24;
 }
 
+#xylitol p .xylitol_p_one{
+  line-height: 1;
+}
+
+#xylitol p .xylitol_p_two{
+  line-height: 0.9;
+}
+
 #xylitol .xylitol_p_one{
-  font-size: 1.2rem;
-  margin-bottom: 1vh;
+  font-size: 1.5rem;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
   font-weight: 500;
   letter-spacing: -2px;
   line-height: 0;
 }
 
 #xylitol .xylitol_p_two{
-   font-size: 0.9rem;
+   font-size: 1rem;
    margin-top: 1vh;
    letter-spacing: -1px;
    text-align: center;
-   line-height: 0;
+   line-height: -2;
 }
 
 
@@ -1609,26 +1618,79 @@ letter-spacing: -1px;
 
 
 
+
 /* スマホ用のレスポンシブデザイン */
 /* --- メディアクエリ (375px以下) --- */
 @media (max-width: 375px) {
 
 
-#xylitol .xylitol_p_one{
-  font-size: 1.1rem;
-  margin-bottom: 1vh;
-  font-weight: 500;
-  letter-spacing: -2px;
-  line-height: 0;
+  .explanationblock_one P{
+  color: #703D24;
+  margin-top: -5vh;
+  font-size: 0.7rem;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 600;
 }
 
+.explanationblock_one img{
+width: 47%;
+}
+
+.explanationblock_two{
+padding-top: 5vh;
+margin-left: -5vw;
+}
+
+.explanationblock_two P{
+  color: #703D24;
+  font-size: 0.7rem;
+  margin-top: -5vh;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: centerx;
+  margin-left: 5vw;
+  font-weight: 600;
+}
+
+.explanationblock_two img{
+  width: 45%;
+
+}
+
+
+.explanationblock_three{
+padding-top: 5vh;
+margin-left: -5vw;
+
+}
+
+.explanationblock_three P{
+  color: #703D24;
+  font-size: 0.7rem;
+  margin-top: -5vh;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: centerx;
+  margin-left: 5vw;
+  font-weight: 600;
+}
+
+.explanationblock_three img{
+  width: 45%;
+}
+
+
+#xylitol .xylitol_title h2{
+  margin-top: -15vh;
+}
 
 
   #order{
   padding-top: 10vh;
   padding-bottom: 0vh;
 }
-
 }
 
 
@@ -1663,6 +1725,17 @@ line-height: 0.5;
 
 }
 
+.explanation_text{
+  font-size: 0.7rem;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: 0px;
+  padding-bottom: 4vh;
+  padding-top: 5vh;
+  font-weight: 100;
+}
+
 /*-------------------------------------------
 キシリトール
 -------------------------------------------*/
@@ -1686,10 +1759,6 @@ text-decoration-thickness: 3px;
 
 }
 
-.xylitolbox_text dd{
-  
-}
-
 .xylitolbox_one{
   padding-bottom: 0.5vh;    /* 既存の余白 */
 }
@@ -1710,10 +1779,22 @@ text-decoration-thickness: 3px;
 }
 
 
-.xylitolbox_three_text01{
-  font-size: 0.9rem;
-  padding-top: -5vh;
+#xylitol .xylitol_p_one{
+  font-size: 1rem;
+  margin-bottom: 1vh;
+  font-weight: 500;
+  letter-spacing: -2px;
 }
+
+
+#xylitol .xylitol_p_two{
+   font-size: 0.8rem;
+   margin-top: 1vh;
+   letter-spacing: -1px;
+   text-align: center;
+   line-height: 0;
+}
+
 
 
 .xylitolbox_two{
@@ -1738,6 +1819,63 @@ text-decoration-thickness: 3px;
   padding-top: 10vh;
   padding-bottom: 0vh;
 }
+
+
+/*-------------------------------------------
+価格①②③
+-------------------------------------------*/
+
+.order_money_box01{
+  display: flex;
+  padding-top: -10vh;
+  justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */
+}
+
+
+.order_three_box_money{
+  background-color: #474747;
+  width: 69vw;
+  height: 5vh;}
+
+
+.order_three_box_money p{
+  color: #fff;
+  font-size: 0.8rem;
+  padding-left: 1vw;
+  padding-top: 0vh;
+}
+
+.pieces{
+ font-size: 0.7rem;
+_}
+
+.money{
+  padding-left: 13vw;
+  font-size: 1rem;
+}
+
+.money01{
+  padding-left: 26vw;
+  font-size: 1rem;
+}
+
+
+
+.order_money_box02{
+  display: flex;
+  padding-top: 2vh;
+  justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */
+}
+
+
+.order_money_box03{
+  display: flex;
+  padding-top: 2vh;
+justify-content: center; /* 水平方向に中央寄せ */
+  align-items: center; /* 垂直方向に中央寄せ */}
+
 
 
   .order_one{
