@@ -1389,7 +1389,7 @@ text-decoration-thickness: 3px;
   border-color: #3EA47C;
   border-radius: 10px;
   width: 80vw;
-  height: 127vh;
+  height: 120vh;
   padding: 5px; /* 内側の余白 */}
 
 .order_one_text h3{
@@ -1758,6 +1758,16 @@ margin-left: -5vw;
   padding-top: 20vh;
   padding-bottom: 0vh;
 }
+
+.order_one{
+  background-color: #EBFFEB;
+  border: solid;
+  border-color: #3EA47C;
+  border-radius: 10px;
+  width: 80vw;
+  height: 130vh;
+  padding: 5px; /* 内側の余白 */}
+
 
 /*-------------------------------------------
 価格①②③
