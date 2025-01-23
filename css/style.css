@@ -1234,7 +1234,7 @@ text-decoration-thickness: 3px;
   font-size: 1.3rem;
   font-weight: 600;
   color: #703D24;
-  letter-spacing: -1.1px;
+  letter-spacing: -1.5px;
 
 }
 
@@ -1246,6 +1246,8 @@ text-decoration-thickness: 3px;
   letter-spacing: -1px;
     color: #703D24;
 }
+
+
 
 
 .xylitolbox_one{
@@ -1274,7 +1276,7 @@ text-decoration-thickness: 3px;
 }
 
 #xylitol p{
-  padding-top: 2vh;
+  padding-top: 1vh;
   text-align: center;
   color:  #703D24;
 }
@@ -1908,13 +1910,32 @@ text-decoration-thickness: 3px;
 
 #xylitol .xylitol_p_one{
   font-size: 1rem;
+  display: block;
 }
 
 
 #xylitol .xylitol_p_two{
    font-size: 0.9rem;
+   display: block;
 }
 
+
+
+#xylitol p{
+  padding-top: 0vh;
+  text-align: center;
+  color:  #703D24;
+}
+
+
+#xylitol p .xylitol_p_one{
+  line-height: 1;
+}
+
+#xylitol p .xylitol_p_two{
+  margin-top: -5vh;
+  line-height: 1;
+}
 
 
 .xylitolbox_two{
