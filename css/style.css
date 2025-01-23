@@ -1898,6 +1898,10 @@ text-decoration-thickness: 3px;
 
 }
 
+.xylitolbox_text dd{
+  font-size: 0.7;
+}
+
 .xylitolbox_one{
   padding-bottom: 0.5vh;    /* 既存の余白 */
 }
