@@ -697,7 +697,7 @@ padding-bottom: 2vh;
 
 .order_two{
   font-family: "Noto Sans JP", serif;
-  padding-top: 6vh;
+  padding-top: 10vh;
   display: flex;
     justify-content: center; /* 水平方向の中央揃え */
     align-items: center; /* 垂直方向の中央揃え */
