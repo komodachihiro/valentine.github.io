@@ -2058,4 +2058,15 @@ text-align: center;
 padding-top: 1vh;
 letter-spacing: -0px;
 }
+/*-------------------------------------------
+注文フォーム　入力
+-------------------------------------------*/
+
+.order_two{
+  font-family: "Noto Sans JP", serif;
+  padding-top: 12vh;
+  display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+}
 }
