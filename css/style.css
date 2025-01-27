@@ -1,12 +1,10 @@
-
-
 @charset "UTF-8";
 
 
 /*共有部分*/
 
 html{
-	font-size: 100%;
+  font-size: 100%;
 }
 
 body{
@@ -14,18 +12,18 @@ body{
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
- 	font-family: "Noto Sans JP", sans-serif;
- 	overflow-x: hidden;
- 	margin: 0;
- 	text-size-adjust: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; /* Safari */
   font-family: "Hina Mincho", serif;
 }
 
 
 a{
-	color: #333333;
-	text-decoration: none;
+  color: #333333;
+  text-decoration: none;
 }
 
 a:hover {/*マウスが上に乗っている状態*/
@@ -34,12 +32,12 @@ text-decoration: none;
 }
 
 img{
-	max-width: 100%;
-	vertical-align: bottom;
+  max-width: 100%;
+  vertical-align: bottom;
 }
 
 li{
-	list-style: none;
+  list-style: none;
 }
 
 
@@ -1270,6 +1268,13 @@ text-decoration-thickness: 3px;
 }
 
 
+.xylitolbox_three .xylitolbox_text dt{
+  font-size: 1.2rem;
+}
+
+.xylitolbox_three_text01{
+  font-size: 1rem;
+}
 
 .xylitolbox_four{
   padding-bottom: 2vh;
@@ -1389,7 +1394,7 @@ text-decoration-thickness: 3px;
   border-color: #3EA47C;
   border-radius: 10px;
   width: 80vw;
-  height: 140vh;
+  height: 120vh;
   padding: 5px; /* 内側の余白 */}
 
 .order_one_text h3{
@@ -1478,23 +1483,23 @@ order_three_text
 
 .order_three_box_money p{
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-left: 1vw;
-  padding-top: 0vh;
+  padding-top: 1vh;
 }
 
 .pieces{
- font-size: 0.7rem;
+ font-size: 0.8rem;
 _}
 
 .money{
-  padding-left: 13vw;
-  font-size: 1rem;
+  padding-left: 19vw;
+  font-size: 1.2rem;
 }
 
 .money01{
-  padding-left: 26vw;
-  font-size: 1rem;
+  padding-left: 30vw;
+  font-size: 1.2rem;
 }
 
 
@@ -2058,6 +2063,8 @@ text-align: center;
 padding-top: 1vh;
 letter-spacing: -0px;
 }
+
+
 /*-------------------------------------------
 注文フォーム　入力
 -------------------------------------------*/
