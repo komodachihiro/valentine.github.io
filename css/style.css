@@ -605,7 +605,7 @@ order_three_text
 .order_three_box_money{
   background-color: #474747;
   width: 30vw;
-  height: 7vh;}
+  height: auto;}
 
 
 .order_three_box_money p{
@@ -1273,7 +1273,7 @@ text-decoration-thickness: 3px;
 }
 
 .xylitolbox_three_text01{
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .xylitolbox_four{
